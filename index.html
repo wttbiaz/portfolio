@@ -1,0 +1,485 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Beatriz Ester · Marketing Digital e Desenvolvimento</title>
+  <meta name="description" content="Beatriz Ester — marketing digital e desenvolvimento em São Paulo/SP. Tráfego pago no Google Ads e no Meta Ads, social media com IA, landing pages, e-commerce e sistemas com React, Node.js e PostgreSQL.">
+  <meta property="og:title" content="Beatriz Ester · Marketing Digital e Desenvolvimento">
+  <meta property="og:description" content="Tráfego pago, social media e desenvolvimento: das campanhas às landing pages, lojas virtuais e sistemas.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://wttbiaz.github.io/portfolio/img/compartilhar.jpg">
+  <meta property="og:url" content="https://wttbiaz.github.io/portfolio/">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Beatriz Ester, marketing digital e desenvolvimento">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#cdb9ff">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%23cdb9ff'/%3E%3Ctext x='32' y='43' font-family='Arial' font-weight='800' font-size='28' text-anchor='middle' fill='%232a1740'%3EBE%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://api.fontshare.com">
+  <link rel="preconnect" href="https://cdn.fontshare.com" crossorigin>
+  <!-- Fontshare: uma família por link (vários pesos separados por vírgula) -->
+  <link href="https://api.fontshare.com/v2/css?f[]=clash-display@500,600&display=swap" rel="stylesheet">
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,401,500,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="topbar" id="topo">
+    <div class="wrap topbar__inner">
+      <a href="#topo" class="brand" aria-label="Beatriz Ester, início">
+        <span class="brand__mark">BE</span>
+        <span class="brand__name">Beatriz Ester</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu">
+        <span></span><span></span>
+      </button>
+      <nav class="nav" id="menu" aria-label="Principal">
+        <a href="#servicos">Serviços</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#ferramentas">Ferramentas</a>
+        <a href="#formacao">Formação</a>
+        <a href="#contato" class="nav__cta">Fale comigo</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="wrap hero__inner">
+        <div class="hero__text">
+          <p class="hero__place">Marketing digital e desenvolvimento · São Paulo/SP</p>
+          <h1 class="hero__title">
+            <span>Do anúncio</span>
+            <span>ao código.</span>
+          </h1>
+          <p class="hero__lead hero__lead--full">
+            Faço gestão de tráfego pago no Google Ads e no Meta Ads, cuido das redes sociais com conteúdo criado com IA
+            e desenvolvo o que recebe esse público: landing pages, lojas virtuais e sistemas com React, Node.js e PostgreSQL,
+            incluindo o atendimento pelo WhatsApp.
+          </p>
+          <!-- Versão curta, só no celular -->
+          <p class="hero__lead hero__lead--short">
+            Tráfego pago, social media e desenvolvimento: das campanhas no Google Ads e no Meta Ads às landing pages,
+            lojas virtuais e sistemas.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="https://wa.me/5511942931836" target="_blank" rel="noopener">
+              <svg class="ico" aria-hidden="true"><use href="#i-whatsapp"/></svg> Conversar no WhatsApp
+            </a>
+            <a class="btn btn--ghost" href="#projetos">Ver projetos</a>
+            <!-- Aparece sozinho quando curriculo-beatriz-trafego.pdf existir no servidor -->
+            <a class="btn btn--ghost" data-cv href="curriculo-beatriz-trafego.pdf" download hidden>
+              <svg class="ico" aria-hidden="true"><use href="#i-download"/></svg> Baixar currículo
+            </a>
+          </div>
+        </div>
+
+        <!-- Composição dos projetos: Hovera no computador e Casa do Conforto no celular (sem link) -->
+        <div class="hero__mockup device device--static">
+          <span class="device__browser">
+            <span class="device__bar" aria-hidden="true"><i></i><i></i><i></i><span class="device__url">hovera.com.br</span></span>
+            <span class="shot device__screen" data-label="Hovera">
+              <img src="img/hovera-desktop.webp" alt="Site da Hovera no computador" fetchpriority="high" decoding="async">
+            </span>
+          </span>
+          <span class="shot device__phone" data-label="Casa do Conforto">
+            <img src="img/casa-do-conforto-mobile.webp" alt="Loja virtual da Casa do Conforto no celular" decoding="async">
+          </span>
+        </div>
+
+        <ol class="flow" aria-label="Como eu trabalho, do anúncio à venda">
+          <li><span>1</span>Atrair<small>tráfego pago, redes sociais e campanhas</small></li>
+          <li><span>2</span>Receber<small>landing pages, e-commerce e sistemas</small></li>
+          <li><span>3</span>Converter<small>funil e atendimento no WhatsApp</small></li>
+          <li><span>4</span>Melhorar<small>análise de comportamento com Clarity</small></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- SOBRE / DIFERENCIAL -->
+    <section class="section about" aria-labelledby="sobre-t">
+      <div class="wrap about__grid">
+        <div>
+          <p class="kicker">Sobre mim</p>
+          <h2 id="sobre-t" class="h2">Marketing com a mão na massa, do post ao checkout.</h2>
+          <!-- Aparece sozinha quando img/foto-beatriz.webp existir (coloque a foto em portfolio-originais/img e rode o conversor) -->
+          <figure class="about__photo" data-optional="img/foto-beatriz.webp" hidden>
+            <img data-src="img/foto-beatriz.webp" alt="Foto de Beatriz Ester" decoding="async">
+          </figure>
+        </div>
+        <div class="about__text">
+          <p>
+            Sou a Beatriz Ester e trabalho com marketing digital e tecnologia. No dia a dia, eu estruturo a presença de
+            marcas nas redes, crio campanhas sazonais, monto landing pages e lojas virtuais e organizo o
+            caminho do lead até a venda, incluindo o reengajamento pelo WhatsApp.
+          </p>
+          <p>
+            Uso IA (Claude) para acelerar a produção de conteúdo e as entregas, e o conhecimento técnico me deixa
+            ajustar sozinha o que costuma travar uma campanha: a página lenta, o formulário que ninguém preenche,
+            o contato que demora a chegar no comercial.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVIÇOS -->
+    <section class="section services-section" id="servicos" aria-labelledby="servicos-t">
+      <div class="wrap">
+        <header class="section__head">
+          <p class="kicker">Serviços</p>
+          <h2 id="servicos-t" class="h2">O que eu faço pela sua marca</h2>
+        </header>
+        <ul class="services">
+          <li class="service">
+            <h3>Tráfego pago</h3>
+            <p>Campanhas no Google Ads e no Meta Ads para visitas ao site, geração de leads por formulário e tráfego para o WhatsApp, com mensuração no Google Analytics 4 e no Google Tag Manager.</p>
+          </li>
+          <li class="service">
+            <h3>Redes sociais e conteúdo com IA</h3>
+            <p>Estratégia e gestão de perfis no Instagram, Facebook e TikTok, com pautas, artes e legendas geradas com IA e aprovação do cliente antes de publicar.</p>
+          </li>
+          <li class="service">
+            <h3>Campanhas sazonais e vídeos</h3>
+            <p>Planejamento de datas comerciais e produção dos vídeos da campanha.</p>
+          </li>
+          <li class="service">
+            <h3>Landing pages</h3>
+            <p>Páginas focadas em uma ação, prontas para receber o tráfego da campanha.</p>
+          </li>
+          <li class="service">
+            <h3>E-commerce</h3>
+            <p>Loja virtual do zero até a operação, com atenção à experiência de compra.</p>
+          </li>
+          <li class="service">
+            <h3>Funil e atendimento por WhatsApp</h3>
+            <p>Etapas de venda organizadas, follow-up e reengajamento de leads.</p>
+          </li>
+          <li class="service">
+            <h3>Sistemas e integrações</h3>
+            <p>Funcionalidades em React e Node.js, bancos de dados em PostgreSQL e integrações como a WhatsApp Cloud API.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- PROJETOS -->
+    <section class="section projects-section" id="projetos" aria-labelledby="projetos-t">
+      <div class="wrap">
+        <header class="section__head">
+          <p class="kicker">Projetos</p>
+          <h2 id="projetos-t" class="h2">Trabalhos recentes</h2>
+        </header>
+
+        <div class="projects">
+          <!-- 1. Destaque -->
+          <article class="project project--featured">
+            <div class="project__media project__media--duo">
+              <figure class="shot" data-label="Plataforma de social media com IA">
+                <img src="img/plataforma-1.webp" alt="Painel de pedidos da plataforma de social media com IA, com clientes, serviços contratados, valores e status de pagamento" loading="lazy" decoding="async">
+              </figure>
+              <figure class="shot" data-label="Aprovação de posts pelo cliente">
+                <img src="img/plataforma-2.webp" alt="Página em que o cliente aprova ou pede ajuste em cada post da pauta do mês" loading="lazy" decoding="async">
+              </figure>
+            </div>
+            <div class="project__body">
+              <div class="project__meta">
+                <span class="tag tag--live">Em andamento · Projeto próprio</span>
+                <span class="period">2026</span>
+              </div>
+              <h3 class="project__title">Plataforma de social media com IA</h3>
+              <p class="project__summary">Meu serviço de marketing digital num só lugar, do anúncio à entrega do conteúdo.</p>
+              <ul class="bullets">
+                <li>Catálogo de serviços com combos, para o cliente escolher o pacote que faz sentido.</li>
+                <li>Checkout com cobrança recorrente por cartão, Pix e boleto.</li>
+                <li>Pautas e artes para Instagram geradas com IA, acelerando a produção.</li>
+                <li>Página para o cliente aprovar os posts antes da publicação.</li>
+              </ul>
+              <ul class="tools" aria-label="Ferramentas">
+                <li>Instagram</li><li>Claude / IA generativa</li><li>Cobrança recorrente</li><li>Pix · cartão · boleto</li>
+              </ul>
+              <p class="project__note">Projeto em desenvolvimento: ainda não está aberto ao público.</p>
+            </div>
+          </article>
+
+          <!-- 2. Hovera -->
+          <article class="project project--flip">
+            <div class="project__media">
+              <a class="device" href="https://hovera.com.br" target="_blank" rel="noopener" aria-label="Abrir hovera.com.br em nova aba">
+                <span class="device__browser">
+                  <span class="device__bar" aria-hidden="true"><i></i><i></i><i></i><span class="device__url">hovera.com.br</span></span>
+                  <span class="shot device__screen" data-label="Hovera">
+                    <img src="img/hovera-desktop.webp" alt="Página inicial da Hovera no computador" loading="lazy" decoding="async">
+                  </span>
+                </span>
+                <span class="shot device__phone" data-label="Celular">
+                  <img src="img/hovera-mobile.webp" alt="Página inicial da Hovera no celular" loading="lazy" decoding="async">
+                </span>
+              </a>
+              <ul class="gallery" aria-label="Galeria da Hovera">
+                <!-- Aparece sozinho quando img/hovera-instagram.webp existir (coloque o PNG em portfolio-originais/img e rode o conversor) -->
+                <li class="gallery__item" data-optional="img/hovera-instagram.webp" hidden>
+                  <figure class="shot shot--thumb" data-label="Instagram"><img data-src="img/hovera-instagram.webp" alt="Perfil da Hovera no Instagram" decoding="async"></figure>
+                </li>
+                <li class="gallery__item gallery__item--wide">
+                  <a class="device device--small" href="https://hovera.com.br/halloween/?v=1" target="_blank" rel="noopener" aria-label="Abrir a landing page de Halloween da Hovera em nova aba">
+                    <span class="device__browser">
+                      <span class="device__bar" aria-hidden="true"><i></i><i></i><i></i><span class="device__url">hovera.com.br/halloween</span></span>
+                      <span class="shot device__screen" data-label="Halloween">
+                        <img src="img/hovera-halloween.webp" alt="Landing page de Halloween da Hovera no computador" loading="lazy" decoding="async">
+                      </span>
+                    </span>
+                    <span class="shot device__phone" data-label="Celular">
+                      <img src="img/hovera-halloween-mobile.webp" alt="Landing page de Halloween da Hovera no celular" loading="lazy" decoding="async">
+                    </span>
+                  </a>
+                </li>
+                <!-- Aparece sozinho quando img/hovera-blackfriday.mp4 existir (coloque o vídeo em portfolio-originais/img e rode o conversor) -->
+                <li class="gallery__item" data-optional="img/hovera-blackfriday.mp4" hidden>
+                  <figure class="shot shot--thumb shot--video" data-label="Black Friday">
+                    <video data-src="img/hovera-blackfriday.mp4" muted loop playsinline preload="metadata" aria-label="Vídeo da campanha de Black Friday da Hovera"></video>
+                  </figure>
+                </li>
+              </ul>
+            </div>
+            <div class="project__body">
+              <div class="project__meta">
+                <span class="tag tag--live">Em andamento</span>
+                <span class="period">jul/2026 até hoje</span>
+              </div>
+              <h3 class="project__title">Hovera</h3>
+              <p class="project__summary">
+                Plataforma SaaS de agentes de IA para atendimento e vendas pelo WhatsApp, para qualquer negócio
+                que recebe clientes por lá: lojas, clínicas, prestadores de serviço e outros. Atuo no tráfego,
+                no marketing e na tecnologia. O projeto está em fase de lançamento.
+              </p>
+              <ul class="bullets">
+                <li><strong>ROAS de 5,9x:</strong> R$&nbsp;22&nbsp;mil investidos geraram R$&nbsp;130&nbsp;mil em retorno.</li>
+                <li>Gestão de tráfego pago com investimento mensal no Google Ads e no Meta Ads, com foco em visitas ao site, leads e conversas no WhatsApp.</li>
+                <li>Lançamento da presença nas redes: perfil no Instagram criado e estruturado; Facebook e TikTok como próximos passos.</li>
+                <li>Campanhas sazonais: landing page de Halloween e vídeos da campanha de Black Friday.</li>
+                <li>Site oficial da marca, com contato comercial direto por link para o WhatsApp de vendas.</li>
+                <li>Desenvolvimento do sistema: funil de vendas em Kanban com fases personalizáveis, reengajamento de leads no WhatsApp e avisos no painel em 3 idiomas.</li>
+              </ul>
+              <ul class="tools" aria-label="Ferramentas">
+                <li>Google Ads</li><li>Meta Ads</li><li>Instagram</li><li>WhatsApp</li><li>Microsoft Clarity</li><li>React</li><li>Node.js</li><li>PostgreSQL</li>
+              </ul>
+              <a class="link" href="https://hovera.com.br" target="_blank" rel="noopener">Visitar hovera.com.br <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <!-- 3. Casa do Conforto -->
+          <article class="project">
+            <div class="project__media">
+              <a class="device" href="https://www.casadoconforto.com.br/" target="_blank" rel="noopener" aria-label="Abrir casadoconforto.com.br em nova aba">
+                <span class="device__browser">
+                  <span class="device__bar" aria-hidden="true"><i></i><i></i><i></i><span class="device__url">casadoconforto.com.br</span></span>
+                  <span class="shot device__screen" data-label="Casa do Conforto">
+                    <img src="img/casa-do-conforto-desktop.webp" alt="Página inicial da loja Casa do Conforto no computador" loading="lazy" decoding="async">
+                  </span>
+                </span>
+                <span class="shot device__phone" data-label="Celular">
+                  <img src="img/casa-do-conforto-mobile.webp" alt="Página inicial da loja Casa do Conforto no celular" loading="lazy" decoding="async">
+                </span>
+              </a>
+            </div>
+            <div class="project__body">
+              <div class="project__meta">
+                <span class="tags">
+                  <span class="tag">E-commerce</span>
+                  <span class="tag">Tráfego pago</span>
+                </span>
+                <span class="period">mar a jul/2026</span>
+              </div>
+              <h3 class="project__title">Casa do Conforto</h3>
+              <p class="project__summary">A marca chegando à venda online, com a loja criada do zero até a operação.</p>
+              <ul class="bullets">
+                <li>E-commerce estruturado do zero até entrar em operação.</li>
+                <li>Gestão de tráfego pago com investimento mensal no Google Ads e no Meta Ads, levando visitantes para a loja.</li>
+                <li>Novas funcionalidades na loja conforme a necessidade da operação.</li>
+                <li>Melhorias de experiência de compra, responsividade e usabilidade.</li>
+              </ul>
+              <ul class="tools" aria-label="Ferramentas">
+                <li>Google Ads</li><li>Meta Ads</li><li>E-commerce</li><li>UX de compra</li><li>Responsividade</li>
+              </ul>
+              <a class="link" href="https://www.casadoconforto.com.br/" target="_blank" rel="noopener">Visitar casadoconforto.com.br <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <!-- 4. Divero Jeans -->
+          <article class="project project--compact">
+            <div class="project__head">
+              <div class="project__meta">
+                <span class="tag">IA de vendas</span>
+                <span class="period">mai a ago/2026</span>
+              </div>
+              <h3 class="project__title">Divero Jeans</h3>
+              <p class="project__summary">Base de dados que permite à IA de vendas atender clientes no atacado.</p>
+            </div>
+            <div class="project__detail">
+              <ul class="bullets">
+                <li>Produtos e informações comerciais estruturados do zero.</li>
+                <li>Conteúdo mantido alinhado ao time comercial.</li>
+              </ul>
+              <ul class="tools" aria-label="Ferramentas">
+                <li>IA de vendas</li><li>Base de dados de produtos</li>
+              </ul>
+              <p class="project__note">Projeto sem link público.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FERRAMENTAS -->
+    <section class="section" id="ferramentas" aria-labelledby="ferramentas-t">
+      <div class="wrap">
+        <header class="section__head">
+          <p class="kicker">Ferramentas</p>
+          <h2 id="ferramentas-t" class="h2">Com o que eu trabalho</h2>
+        </header>
+        <div class="toolset">
+          <div>
+            <h3 class="toolset__h">Marketing, conteúdo e análise</h3>
+            <ul class="chips chips--main">
+              <li>Google Ads</li><li>Meta Ads</li><li>Google Analytics 4</li><li>Google Tag Manager</li>
+              <li>Instagram</li><li>Facebook</li><li>TikTok</li><li>Microsoft Clarity</li>
+              <li>WhatsApp Business</li><li>WhatsApp Cloud API</li><li>Claude</li><li>IA generativa para conteúdo</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="toolset__h">Desenvolvimento</h3>
+            <ul class="chips">
+              <li>HTML</li><li>CSS</li><li>JavaScript</li><li>React</li><li>Node.js</li><li>SQL</li>
+              <li>PostgreSQL</li><li>Git</li><li>Vercel</li><li>Railway</li><li>Claude Code</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FORMAÇÃO + IDIOMAS -->
+    <section class="section section--tint edu-section" id="formacao" aria-labelledby="formacao-t">
+      <div class="wrap edu">
+        <header>
+          <p class="kicker">Formação</p>
+          <h2 id="formacao-t" class="h2">Estudo contínuo</h2>
+        </header>
+        <div>
+          <ul class="timeline">
+            <li>
+              <span class="timeline__year">2026 · em andamento</span>
+              <strong>Bootcamp Itaú: Java com Inteligência Artificial</strong>
+              <span>DIO</span>
+            </li>
+            <li>
+              <span class="timeline__year">2026</span>
+              <strong>PHP</strong>
+              <span>Udemy</span>
+            </li>
+            <li>
+              <span class="timeline__year">2025</span>
+              <strong>JavaScript</strong>
+              <span>Udemy</span>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="edu__h">Idiomas</h3>
+          <ul class="langs">
+            <li><strong>Português</strong> <span>Nativo</span></li>
+            <li><strong>Inglês</strong> <span>Básico, em estudo</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- DEPOIMENTOS
+         A seção fica escondida enquanto nenhum <blockquote> tiver texto.
+         Para publicar: escreva a frase dentro de <blockquote> e o nome/empresa em <strong> e <span>. -->
+    <section class="section testimonials" id="depoimentos" aria-labelledby="depoimentos-t" hidden>
+      <div class="wrap">
+        <header class="section__head">
+          <p class="kicker">Depoimentos</p>
+          <h2 id="depoimentos-t" class="h2">Quem já trabalhou comigo</h2>
+        </header>
+        <div class="quotes">
+          <figure class="quote">
+            <blockquote></blockquote>
+            <figcaption><strong></strong> <span></span></figcaption>
+          </figure>
+          <figure class="quote">
+            <blockquote></blockquote>
+            <figcaption><strong></strong> <span></span></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="section contact" id="contato" aria-labelledby="contato-t">
+      <div class="wrap contact__box">
+        <div>
+          <p class="kicker">Contato</p>
+          <h2 id="contato-t" class="h2 contact__title">Vamos colocar sua marca para vender?</h2>
+          <p class="contact__lead">Me chama no WhatsApp ou por e-mail e me conta o que você precisa.</p>
+          <!-- Cada botão aparece sozinho quando o PDF dele existir no servidor -->
+          <div class="contact__cvs">
+            <a class="btn btn--ghost" data-cv href="curriculo-beatriz-trafego.pdf" download hidden>
+              <svg class="ico" aria-hidden="true"><use href="#i-download"/></svg> Currículo de tráfego e marketing
+            </a>
+            <a class="btn btn--ghost" data-cv href="curriculo-beatriz-dev.pdf" download hidden>
+              <svg class="ico" aria-hidden="true"><use href="#i-download"/></svg> Currículo de desenvolvimento
+            </a>
+          </div>
+        </div>
+        <ul class="contact__list">
+          <li>
+            <a href="https://wa.me/5511942931836" target="_blank" rel="noopener">
+              <svg class="ico" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+              <span><small>WhatsApp</small>+55 11 94293-1836</span>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:be90551@gmail.com">
+              <svg class="ico" aria-hidden="true"><use href="#i-mail"/></svg>
+              <span><small>E-mail</small>be90551@gmail.com</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/beatriz-ester6a897836a" target="_blank" rel="noopener">
+              <svg class="ico" aria-hidden="true"><use href="#i-linkedin"/></svg>
+              <span><small>LinkedIn</small>beatriz-ester6a897836a</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <span>© <span id="ano">2026</span> Beatriz Ester · São Paulo/SP</span>
+      <a href="#topo">Voltar ao topo ↑</a>
+    </div>
+  </footer>
+
+  <a class="wa-float" href="https://wa.me/5511942931836" target="_blank" rel="noopener" aria-label="Conversar no WhatsApp">
+    <svg aria-hidden="true"><use href="#i-whatsapp"/></svg>
+    <span class="wa-float__label">Fale comigo</span>
+  </a>
+
+  <!-- Ícones -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-whatsapp" viewBox="0 0 24 24"><path fill="currentColor" d="M12.04 2C6.580 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.050 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21c5.46 0 9.91-4.45 9.910-9.91S17.5 2 12.04 2Zm0 18.15c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.25-8.24 4.54 0 8.24 3.7 8.24 8.24 0 4.55-3.7 8.240-8.24 8.24Zm4.52-6.17c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.14.16-.29.18-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.13-.15.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.1-.22-.16-.47-.28Z"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 3v12m0 0-5-5m5 5 5-5M4 19h16"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></g></symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24"><path fill="currentColor" d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9.75h4V21H3V9.75Zm6.5 0h3.83v1.54h.06c.53-1 1.84-2.06 3.79-2.060 4.05 0 4.8 2.67 4.8 6.13V21h-4v-4.98c0-1.19-.02-2.72-1.66-2.72-1.66 0-1.92 1.3-1.92 2.63V21h-4V9.75Z"/></symbol>
+  </svg>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
